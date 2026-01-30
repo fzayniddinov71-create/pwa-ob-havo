@@ -1,0 +1,49 @@
+body {
+margin: 0;
+font-family: Arial;
+background: #0f172a;
+color: white;
+}
+
+
+body.light { background: #f1f5f9; color: black; }
+
+
+.app {
+max-width: 400px;
+margin: auto;
+padding: 20px;
+}
+
+
+button {
+padding: 10px;
+margin-top: 10px;
+border-radius: 10px;
+}
+
+
+#forecast {
+display: flex;
+overflow-x: auto;
+gap: 10px;
+margin-top: 15px;
+}
+
+
+.day {
+min-width: 90px;
+background: #1e293b;
+padding: 10px;
+border-radius: 10px;
+}
+
+
+body.light .day { background: #e5e7eb; }
+
+
+#map {
+height: 200px;
+margin-top: 15px;
+border-radius: 10px;
+}
