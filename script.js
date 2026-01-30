@@ -1,4 +1,4 @@
-const API_KEY = "SENING_API_KEY";
+const API_KEY = "67ee5d275b42e127b69cda0f78a8c662";
 
 
 const result = document.getElementById("result");
