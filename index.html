@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Weather App PRO</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+</head>
+<body class="dark">
+
+
+<button id="themeToggle">🌙</button>
+
+
+<div class="app">
+<h1>🌦 Ob-havo</h1>
+
+
+<input type="text" id="cityInput" placeholder="Shahar nomi" list="cities">
+<datalist id="cities">
+<option value="Toshkent"><option value="Samarqand"><option value="Buxoro">
+<option value="Andijon"><option value="Namangan"><option value="Farg'ona">
+</datalist>
+
+
+<button onclick="getWeather()">Ko‘rish</button>
+
+
+<div id="result"></div>
+<div id="aqi"></div>
+<div id="alert"></div>
+<div id="forecast"></div>
+<div id="map"></div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
